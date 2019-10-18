@@ -1,0 +1,8 @@
+1) Install git from https://git-scm.com/
+1) Install Source Tree from https://www.sourcetreeapp.com/
+2) Skip adding repo and skip adding key unless you have one on your machine already 
+3) Create an SSH key (SSH-2 (RSA)) Use 2048 or 4096. You can do this by going to Tools/ Create or Import SSH Keys in SourceTree
+4) Save public and private keys. Upload public to gitlab and points SourceTree to your private key by going to options/general
+5) Click Clone/ New and insert your projects SSH url (found on gitlab). NOTE: Might need to use the HTTPS url and under Destination
+   Path select where you want your local repository to reside. 
+6) Helpful Video: https://www.youtube.com/watch?v=1lBdlh3AGSc
